@@ -1,0 +1,81 @@
+---
+---
+
+@import "minima";
+
+/* 전체 톤: 흰 배경 + 넓은 여백 + 얇은 폰트 */
+:root {
+  --text: #111;
+  --muted: #666;
+  --line: #eaeaea;
+}
+
+body {
+  background: #fff;
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
+    "Noto Sans KR", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 300;
+  line-height: 1.85;
+  letter-spacing: 0.1px;
+}
+
+/* 본문 폭 좁혀서 여백 크게 */
+.wrapper {
+  max-width: 820px;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+/* 헤더 미니멀 */
+.site-header {
+  border-top: 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.site-title {
+  font-weight: 500;
+  letter-spacing: 0.4px;
+}
+
+/* 링크 톤 다운 */
+a {
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(17, 17, 17, 0.15);
+}
+a:hover {
+  border-bottom-color: rgba(17, 17, 17, 0.5);
+}
+
+/* 포스트 타이틀: 굵지 않게, 여백 넉넉 */
+.post-title,
+.page-heading {
+  font-weight: 500;
+  letter-spacing: 0.2px;
+}
+
+.post-content h2,
+.post-content h3 {
+  font-weight: 500;
+  margin-top: 2.2em;
+}
+
+.post-content p {
+  margin: 1.1em 0;
+  color: var(--text);
+}
+
+/* 목록(아카이브) 보기 좋게 */
+.post-list > li {
+  margin-bottom: 18px;
+}
+.post-meta {
+  color: var(--muted);
+  font-weight: 300;
+}
+
+/* 푸터도 미니멀 */
+.site-footer {
+  border-top: 1px solid var(--line);
+}
