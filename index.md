@@ -3,7 +3,7 @@ layout: default
 title: Archive
 ---
 
-# Brand Study
+# Research Log
 
 {% for post in site.categories.brand-study %}
 - [{{ post.title }}]({{ post.url }})
