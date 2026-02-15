@@ -7,3 +7,6 @@ author:
 
 minima:
   skin: classic
+
+header_pages:
+  - index.md
