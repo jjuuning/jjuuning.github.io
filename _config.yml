@@ -1,3 +1,9 @@
 theme: minima
-title: jjuuning archive
-description: Brand study and mood exploration
+title: uning's achive
+description: Brand study · mood exploration · positioning notes
+
+author:
+  name: juuning
+
+minima:
+  skin: classic
