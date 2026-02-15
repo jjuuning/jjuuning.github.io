@@ -1,6 +1,19 @@
 ---
-layout: home
+layout: default
 title: Archive
 ---
 
-짧게 기록하는 브랜드 연구 아카이브
+# Brand Study
+
+{% for post in site.categories.brand-study %}
+- [{{ post.title }}]({{ post.url }})
+{% endfor %}
+
+<br>
+
+# Mood Archive
+
+{% for post in site.categories.mood-archive %}
+- [{{ post.title }}]({{ post.url }})
+{% endfor %}
+
